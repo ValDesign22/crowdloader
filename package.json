@@ -1,6 +1,6 @@
 {
-  "name": "@valdesign/crowdloader",
-  "version": "1.0.0",
+  "name": "crowdloader",
+  "version": "1.0.1",
   "description": "A custom crowdin translation downloader",
   "main": "crowdloader.js",
   "devDependencies": {},
@@ -11,10 +11,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ValDesign",
+  "author": "ValDesign22",
   "license": "ISC",
-  "private": true,
   "bin": {
     "crowdloader": "./crowdloader.js"
-  }
+  },
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/ValDesign22/crowdloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ValDesign22/crowdloader/issues"
+  },
+  "homepage": "https://github.com/ValDesign22/crowdloader#readme",
+  "keywords": [
+    "crowdin",
+    "translation",
+    "downloader"
+  ]
 }
