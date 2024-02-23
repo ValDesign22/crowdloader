@@ -1,6 +1,6 @@
 {
   "name": "crowdloader",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A custom crowdin translation downloader",
   "main": "crowdloader.js",
   "devDependencies": {},
@@ -14,7 +14,7 @@
   "author": "ValDesign22",
   "license": "ISC",
   "bin": {
-    "crowdloader": "./crowdloader.js"
+    "crowdloader": "./src/crowdloader.js"
   },
   "readme": "README.md",
   "repository": {

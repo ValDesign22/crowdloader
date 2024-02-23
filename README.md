@@ -11,5 +11,12 @@ npm i -g crowdloader
 crowdloader --help
 
 # Example
-crowdloader --projectid <projectid> --apikey <apikey> (--project <folder>)
+# Init a project
+crowdloader init --projectid <projectid> --apikey <apikey> --project <folder>
+
+# Get project configuration
+crowdloader config --project <folder>
+
+# Download translations
+crowdloader download --project <folder>
 ```
